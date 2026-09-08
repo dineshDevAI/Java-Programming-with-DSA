@@ -5,6 +5,7 @@ public static void main(String args[]){
         String name ="dinesh";
         System.out.println(name);
         int age=20;
+        String course="E&TC";
         System.out.println(age);
         }
     
