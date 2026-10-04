@@ -7,10 +7,17 @@ import java.util.Scanner;
  */
 public class buddha {
 
-  public static void  main(String args[]){
-    Scanner sc = new  Scanner(System.in);
-    System.out.println("enter no");
-    int n= sc.nextInt();
-    System.out.println("square of this no is "+n*n);
+  public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter first no");
+    int a = sc.nextInt();
+    //System.out.println("enter second no");
+    //int b = sc.nextInt();
+    if (a %2 ==0) {
+      System.err.println("True");
+    }else{
+      System.err.println("False");
+    }
+    sc.close();
   }
 }
