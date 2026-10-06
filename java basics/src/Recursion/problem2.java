@@ -3,14 +3,14 @@ package src.Recursion;
 
 public class problem2 {
     public static  void printnumb(int n){
-        if (n==0) {
+        if (n==6) {
             return ;
         }
         System.out.println(n);
-        printnumb(n);
+        printnumb(n+1);
     }
     public static void main(String args[]){
-        int n=5;
+        int n=1;
     printnumb(n);
         
     }    
